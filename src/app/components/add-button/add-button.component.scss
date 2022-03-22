@@ -1,0 +1,26 @@
+.add-button-container {
+  width: 85px;
+  height: 34px;
+  display: flex;
+  justify-content: space-around;
+  background: var(--color-transparent-background);
+  border-radius: 13px;
+
+  .text {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-regular);
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: var(--color-border);
+  }
+
+  .icon-add-new {
+    font-size: 24px;
+    color: var(--color-border);
+    display: flex;
+    align-items: center;
+  }
+}

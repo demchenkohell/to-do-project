@@ -1,6 +1,23 @@
 :root {
+  font-family: 'Montserrat', sans-serif;
   color: var(--color-text);
 
+  --font-size-title: 1.5rem;
+  --font-size-regular: 0.875rem;
+  --font-size-medium: 1.125rem;
+
   --color-text: #0E252D;
+  --color-transparent-background: rgba(249, 249, 249, 0.55);
+  --color-border: #A7B4B8;
+  --color-white: #F4F4F4;
+  --color-background: #E2E7E9;
+
   --color-green: #B9C9AC;
+  --color-red: #F4F4F4;
+  --color-orange: #E8D9B3;
+  --color-blue: #BADDE4;
+  --color-violet: #C8C8E8;
+
+  --color-transparent-red: rgba(218, 183, 181, 0.66);
 }
+

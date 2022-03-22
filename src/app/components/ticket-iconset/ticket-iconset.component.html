@@ -1,0 +1,9 @@
+<div class="iconset-container" [class.background]="isOpenedTaskMode">
+  <div *ngFor="let item of iconArray">
+    <span
+      [class]="item.icon"
+      *ngIf="item.display"
+      (click)="emitEvent(item.value)"
+    ></span>
+  </div>
+</div>

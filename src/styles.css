@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import './theme/variables.scss';
+@import './assets/icons/style.css';
+
+:root {
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: var(--color-text);
+  background: var(--color-background);
+}

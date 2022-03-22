@@ -1,0 +1,23 @@
+.iconset-container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: var(--color-border);
+}
+
+.background {
+  font-size: 20px;
+  width: 63px;
+  height: 35px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background: var(--color-transparent-background);
+  border-radius: 13px;
+}
+
+[class*='icon-'] {
+  &:hover {
+    color: var(--color-text);
+  }
+}
