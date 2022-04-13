@@ -3,9 +3,28 @@
   height: 19px;
   width: fit-content;
   border-radius: 5px;
+  p {
+    margin: 0;
+  }
+}
+
+[details='red'] {
+  background: var(--color-red);
 }
 
 [details='green'] {
   background: var(--color-green);
+}
+
+[details='blue'] {
+  background: var(--color-blue);
+}
+
+[details='orange'] {
+  background: var(--color-orange);
+}
+
+[details='violet'] {
+  background: var(--color-violet);
 }
 

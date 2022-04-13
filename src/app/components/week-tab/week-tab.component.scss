@@ -1,0 +1,16 @@
+.week-container {
+  width: fit-content;
+  padding: 8px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: var(--color-border);
+  border-radius: 13px;
+  background: var(--color-transparent-background);
+
+  .active {
+    width: 22px;
+    border-radius: 5px;
+    background: var(--color-transparent-background);
+  }
+}

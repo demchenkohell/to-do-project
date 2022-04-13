@@ -1,0 +1,16 @@
+<div class="ticket-container">
+  <ticket-title [title]="ticket.title" [isDone]="ticket.isReady"></ticket-title>
+  <div class="ticket-details">
+    <div>
+      <tag *ngFor="let tag of ticket.tags; index as i" class="tags" [text]="tag" [color]="colors[i]"></tag>
+    </div>
+    <div class="icons">
+      <deadline [date]="ticket.deadline"></deadline>
+      <ticket-iconset
+        [isInListMode]="isListView"
+        [isOpenedTaskMode]="false"
+        (actionEvent)="func($event)"
+      ></ticket-iconset>
+    </div>
+  </div>
+</div>
